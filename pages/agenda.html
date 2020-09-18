@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <html lang="pt"></html>
+    <meta charset="utf-8">
+    <title>Consultório Dra. Kátia Machado</title>
+
+    <meta name="Francisco S.S" content="Consultório Dra. Kátia Machado">
+    <meta name="viewport" content="width=device-width; inicial-scale=1; maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<header>
+        <h1>
+            - Bem vindo ao Consultório Online - 
+        </h1>
+        <h2>
+            Agenda de marcações
+        </h2>
+</header>
+
+<body>
+    <div class="navigation">
+        <ul>
+
+            <li>
+                <a href="../index.html">
+                    <span class="icon"><i class="fas fa-home"></i></span>
+                    <span class="title">Home</span>
+                </a>
+                
+            </li>
+            
+            <li>
+                <a href="agenda.html">
+                    <span class="icon"><i class="fas fa-book"></i></span>
+                    <span class="title">Agenda</span>
+                </a>
+                
+            </li>
+            <li>
+                <a href="cadasPaciente.html">
+                    <span class="icon"><i class="fas fa-users"></i></span>
+                    <span class="title">Novo Paciente</span>
+                </a>
+                
+            </li>
+            <li>
+                <a href="buscar.html">
+                    <span class="icon"><i class="fas fa-search"></i></span>
+                    <span class="title">Buscar pacientes</span>
+                </a>
+                
+            </li>
+            <li>
+                <a href="servicos.html">
+                    <span class="icon"><i class="fas fa-comments-dollar"></i></span>
+                    <span class="title">Preços e Serviços</span>
+                </a>
+                
+                
+            </li>
+           
+            <li>
+                <a href="logout.html">
+                    <span class="icon"><i class="fas fa-sign-out-alt"></i></span>
+                    <span class="title">Sair do Consultório</span>
+                </a>
+                
+            </li>
+
+        </ul> 
+
+    </div>
+    <div class="toggle" onclick="toggleMenu()"></div>
+    <script type="text/javascript">
+        function toggleMenu(){
+            let navigation = document.querySelector('.navigation');
+            let toggle = document.querySelector('.toggle');
+            navigation.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
+    </script>
+</body>
+
+<main>  
+    
+    <body>
+        <div class="list">
+
+            <h2>Agenda | Dra. Kátia Machado | 2020</h2>
+            <ul>
+                    
+                <li><span>Verinildo noberto | dia: 19/09/2020| hora: 10:30</span> </li>
+                <li><span>Francisco de assis | dia: 11/10/2020| hora: 10:00</span> </li>
+                <li><span>Lucinda da silva | dia: 20/11/2020| hora: 09:00</span> </li>
+                <li><span>Cris Aquino | dia: 21/11/2020| hora: 11:30</span> </li>
+                <li><span>Ana clecia | dia: 04/12/2020| hora: 12:30</span> </li>
+                <li><span>Matilda Alves | dia: 12/12/2020| hora: 08:30</span> </li>
+    
+            </ul>
+    
+        </div>
+    </body>
+
+</main>
+</html>
